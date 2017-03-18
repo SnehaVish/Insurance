@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_life_insurance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.insuranceproject.insurance.LifeInsurance">
+
+    <Button
+        android:text="Pension Plan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/childrens"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="submit"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:id="@+id/pension" />
+
+    <Button
+        android:text="Money Back Plan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="submit"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:id="@+id/moneyBack"
+        android:layout_above="@+id/childrens"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Childrens Plan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:onClick="submit"
+        android:gravity="center"
+        android:id="@+id/childrens"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Endowment Plan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:id="@+id/endowment"
+        android:onClick="submit"
+        android:layout_above="@+id/moneyBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

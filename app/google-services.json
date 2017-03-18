@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646900503620",
+    "firebase_url": "https://insurance-3acc0.firebaseio.com",
+    "project_id": "insurance-3acc0",
+    "storage_bucket": "insurance-3acc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646900503620:android:649705aedc042699",
+        "android_client_info": {
+          "package_name": "com.insuranceproject.insurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646900503620-hjvoqgkb47lnn16hr8laj63ovqkq6rpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insuranceproject.insurance",
+            "certificate_hash": "fbe3137124a486d9669c260b2897e5cbc9110e23"
+          }
+        },
+        {
+          "client_id": "646900503620-56gf10s6hngl6gtff4mkievveh8msilo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAadz6liW-qDGxkPXlPrONDKys-sjlblZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646900503620-56gf10s6hngl6gtff4mkievveh8msilo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
